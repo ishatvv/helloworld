@@ -13,7 +13,7 @@ values = st.slider('Select a range of values', 0.00, 100.00, (25.00, 75.00))
 #3
 st.subheader('TIME RANGE')
 appointment = st.slider('Select your appointment time:', value = (time(11,30), time(12,45)))
-st.write('You're scheduled for: appointment )
+st.write('Youre scheduled for:', appointment)
 
 
 #4
